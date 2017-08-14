@@ -28,3 +28,6 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
 # Time
 persist.timed.enable=true
+
+# Qualcomm
+ro.sys.fw.dex2oat_thread_count=8
