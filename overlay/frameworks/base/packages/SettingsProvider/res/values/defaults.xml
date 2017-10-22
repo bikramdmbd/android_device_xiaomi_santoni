@@ -23,4 +23,6 @@
     <bool name="def_screen_brightness_automatic_mode">false</bool>
     <!-- Default state of tap to wake -->
     <bool name="def_double_tap_to_wake">false</bool>
+    <!-- Disable UI touch sounds by default -->
+    <bool name="def_sound_effects_enabled">false</bool>
 </resources>
