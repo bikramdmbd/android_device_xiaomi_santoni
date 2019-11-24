@@ -27,7 +27,7 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-#export export HAVOC_BUILD_TYPE=Official
+REVENGEOS_BUILDTYPE=OFFICIAL
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
