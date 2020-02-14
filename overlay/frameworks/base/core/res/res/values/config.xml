@@ -496,4 +496,6 @@
 	<!-- Whether the device show_vendor_mismatch_message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
 
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">false</bool>
 </resources>
