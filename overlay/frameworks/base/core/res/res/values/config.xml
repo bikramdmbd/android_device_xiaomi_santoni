@@ -479,6 +479,10 @@
 
     <!-- Button backlight -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
+	
+    <!-- Whether to post reset runnable for all clients. Needed for some older
+         vendor fingerprint HAL implementations. -->
+    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
 
     <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window
