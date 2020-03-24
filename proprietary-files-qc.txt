@@ -693,3 +693,22 @@ vendor/lib/libwfdhaldsmanager.so|cc82da3b069ffbeee63a29e71898b03217d9c3bd
 vendor/lib/libwfdhdcpcp.so|f6121aa45b2c4ebd895131c82df54c9414b6eebb
 vendor/lib/libwfdmmservice.so|a3ab34e9a92e229116cc69dc651efafa6144c5a1
 vendor/lib/libwfdmodulehdcpsession.so|c4c2d731d671044797943bffef896ebe16fd3684
+
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-product/priv-app/daxService/daxService.apk
+etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
+product/etc/permissions/com.dolby.daxservice.xml
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
