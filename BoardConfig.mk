@@ -156,6 +156,9 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
+# EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # Filesystem
 TARGET_EXFAT_DRIVER := sdfat
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
