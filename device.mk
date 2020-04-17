@@ -264,7 +264,8 @@ PRODUCT_PACKAGES += \
 
 # HW crypto
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee \
+    vendor.qti.hardware.cryptfshw@1.0
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -300,6 +301,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
+
+# Libshims
+PRODUCT_PACKAGES += \
+    libshims_camera
 
 # Lights
 PRODUCT_PACKAGES += \
