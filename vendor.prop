@@ -69,6 +69,9 @@ persist.vendor.cne.feature=1
 persist.vendor.dpm.feature=0
 persist.vendor.sys.cnd.iwlan=1
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Coresight
 persist.debug.coresight.config=stm-events
 
