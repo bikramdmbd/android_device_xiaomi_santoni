@@ -29,17 +29,17 @@ VENDOR=xiaomi
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-AOSP_ROOT="${MY_DIR}/../../.."
+ROOT="$MY_DIR"/../../..
 
-HELPER="$AOSP_ROOT/vendor/havoc/build/tools/extract_utils.sh"
+HELPER="$ROOT"/vendor/pa/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
 fi
 source "${HELPER}"
 
-# Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${AOSP_ROOT}"
+# Initialize the common helper
+setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false
 
 # Copyright headers and guards
 write_headers
