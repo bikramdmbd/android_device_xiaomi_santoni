@@ -417,8 +417,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     libcnefeatureconfig \
     librmnetctl \
-    libxml2 \
-    libprotobuf-cpp-full
+    libxml2
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -483,6 +482,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-ext \
     libstdc++.vendor
+
+# VNDK
+# FIXME: master: compat for libprotobuf
+# See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
 
 # Wifi
 PRODUCT_PACKAGES += \
