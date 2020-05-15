@@ -150,6 +150,11 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_dec \
+    libbtconfigstore
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8937 \
