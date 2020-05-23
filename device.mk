@@ -525,6 +525,10 @@ PRODUCT_BOOT_JARS += \
    QPerformance \
    UxPerformance
 
+#XiaomiAddon
+PRODUCT_PACKAGES += \
+    XiaomiAddon
+	
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
