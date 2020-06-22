@@ -47,4 +47,7 @@
 
     <!-- Allow devices to use a lower screenrecording bitrate because of old hardware -->
     <bool name="config_device_needs_lower_bitrate">true</bool>
+
+    <!-- Button backlight value ranges from 0 to 255; 0 is considered as Disabled -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
