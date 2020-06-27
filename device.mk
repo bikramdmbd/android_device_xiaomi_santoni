@@ -352,10 +352,6 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service
-
 # ParanoidDoze
 PRODUCT_PACKAGES += \
     ParanoidDoze
