@@ -56,7 +56,7 @@ TARGET_KERNEL_CONFIG := santoni_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := $(shell sh -c "find prebuilts/clang/host/linux-x86/ -type f -name clang -printf \"%T@ %Tc %p\n\" | sort -n | tail -n1 | sed 's/.*clang-\(.*\)\/bin.*/\1/'")
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # Audio
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
