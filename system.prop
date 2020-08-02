@@ -30,3 +30,6 @@ persist.timed.enable=true
 
 # Qualcomm
 ro.sys.fw.dex2oat_thread_count=8
+
+# Force wifi interface for wlan0
+wifi.interface=wlan0
