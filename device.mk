@@ -503,3 +503,7 @@ PRODUCT_PACKAGES += \
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Add Prebuilt Apps
+PRODUCT_PACKAGES += \
+    QPGallery
