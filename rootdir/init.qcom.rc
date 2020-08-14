@@ -1,4 +1,4 @@
-# Copyright (c) 2009-2012, 2014-2017, The Linux Foundation. All rights reserved.
+# Copyright (c) 2009-2012, 2014-2020, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -350,6 +350,10 @@ on property:sys.boot_completed=1
     #Reset read ahead for dm-0 and dm-1 to 512kb
     write /sys/block/dm-0/queue/read_ahead_kb 512
     write /sys/block/dm-1/queue/read_ahead_kb 512
+    #WDSP FW boot sysfs node used by STHAL
+    chown media audio /sys/kernel/wdsp0/boot
+    chown media audio /sys/kernel/wcd_cpe0/fw_name
+    chown media audio /sys/kernel/aud_dev/state
 
 on property:persist.radio.atfwd.start=false
     stop atfwd
@@ -482,6 +486,9 @@ on property:vendor.hw.fm.init=0
 
 on property:vendor.hw.fm.init=1
     write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
+
+on property:vendor.netflix.bsp_rev=*
+    setprop ro.netflix.bsp_rev ${vendor.netflix.bsp_rev}
 
 # QMUX must be in multiple groups to support external process connections
 service qmuxd /system/bin/qmuxd
