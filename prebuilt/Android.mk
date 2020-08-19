@@ -24,3 +24,14 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := Music
 include $(BUILD_PREBUILT)
+
+#RemovePackages
+include $(CLEAR_VARS)
+LOCAL_MODULE := RemovePackages
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_OVERRIDES_PACKAGES := GoogleTTS talkback Firefox-lite ChromeModernPublic Chrome PixelLiveWallpaperPrebuilt DuckDuckGo MarkupGoogle MatLog Photos
+LOCAL_UNINSTALLABLE_MODULE := true
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_SRC_FILES := /dev/null
+include $(BUILD_PREBUILT)

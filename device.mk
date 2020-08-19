@@ -507,4 +507,5 @@ PRODUCT_PACKAGES += \
 # Add Prebuilt Apps
 PRODUCT_PACKAGES += \
     QPGallery \
-    PulseMusic
+    PulseMusic \
+    RemovePackages
