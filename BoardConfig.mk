@@ -235,9 +235,6 @@ include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# Thermal
-USE_DEVICE_SPECIFIC_THERMAL := true
-
 # Treble
 ENABLE_VENDOR_IMAGE := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
