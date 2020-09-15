@@ -4,9 +4,9 @@ EXTRA_VENDOR_LIBRARIES := \
     libandroidicu \
     libaudioclient \
     libaudiomanager \
+    libprocessgroup \
     libaudiopolicy \
     libbinder \
-    libbinderthreadstate \
     libbufferhub \
     libbufferhubqueue \
     libcamera_client \
@@ -14,7 +14,6 @@ EXTRA_VENDOR_LIBRARIES := \
     libgui \
     libharfbuzz_ng \
     libheif \
-    libicuuc \
     libicui18n \
     libinput \
     libmedia \
