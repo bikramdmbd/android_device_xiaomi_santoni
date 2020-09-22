@@ -81,6 +81,7 @@ persist.debug.coresight.config=stm-events
 # Dalvik
 dalvik.vm.dex2oat-filter=speed
 dalvik.vm.image-dex2oat-filter=speed
+dalvik.vm.dex2oat64.enabled=true
 debug.hwui.renderer=opengl
 ro.sys.fw.dex2oat_thread_count=4
 dalvik.vm.boot-dex2oat-threads=8
