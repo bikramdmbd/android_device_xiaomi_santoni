@@ -39,6 +39,9 @@ ro.af.client_heap_size_kbyte=7168
 ro.config.vc_call_vol_steps=8
 ro.config.media_vol_steps=20
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # Bluetooth
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 persist.bluetooth.a2dp_offload.disabled=true
