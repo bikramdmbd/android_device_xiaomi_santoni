@@ -8,6 +8,7 @@ wlan.driver.config         u:object_r:wifi_prop:s0
 wlan.driver.ath            u:object_r:wifi_prop:s0
 wifi.active.interface      u:object_r:wifi_prop:s0
 persist.spectrum.profile    u:object_r:spectrum_prop:s0
+ctl.stop                   u:object_r:ctl_stop_prop:s0
 
 # Dolby
 persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0
